@@ -35,7 +35,7 @@ export default function Action() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            let res = await fetch("http://localhost:4001/estimate", {
+            let res = await fetch("https://form-server.herokuapp.com/estimate", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
