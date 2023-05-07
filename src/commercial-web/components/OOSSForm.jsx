@@ -18,7 +18,7 @@ export default function OOSSForm() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            let res = await fetch("http://localhost:4001/OOSS", {
+            let res = await fetch("https://form-server.herokuapp.com/OOSS", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
