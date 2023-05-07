@@ -110,7 +110,7 @@ export default function Action() {
                                         <span className="asterisk_input"></span>
                                     </div>
                                     <div className = "form-element">
-                                        <input onChange={ (e) => setPhone(e.target.value) } type = "tel" className = "form-control" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" value={phone} required/>
+                                        <input onChange={ (e) => setPhone(e.target.value) } type = "tel" className = "form-control" placeholder="Phone: xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value={phone} required/>
                                         <span className="asterisk_input"></span>
                                     </div>
                                     <div className = "form-element">
