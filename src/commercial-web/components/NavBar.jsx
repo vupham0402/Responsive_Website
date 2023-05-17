@@ -47,14 +47,14 @@ export default function NavBar() {
               </AnchorLink>
             </li>
             <li className="nav-item">
-              <a href="/why-choose-us" className="nav-link">
-                Why Choose Us
-              </a>
-            </li>
-            <li className="nav-item">
               <AnchorLink href="#package-service" className="nav-link">
                 Our Services
               </AnchorLink>
+            </li>
+            <li className="nav-item">
+              <a href="/why-choose-us" className="nav-link">
+                Why Choose Us
+              </a>
             </li>
             <li className="nav-item">
               <a href="/for-vendors" className="nav-link">
