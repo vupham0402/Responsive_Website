@@ -42,6 +42,7 @@ import Wnorowski from '../assets/Wnorowski.jpg';
 import OOSSCard from '../assets/tent_card_OOSS.png';
 import Detailed from '../assets/detailed.jpg';
 import CLoseX from '../assets/closeX.png';
+import EyeLogo from '../assets/eye_logo.png';
 
 export {
     Close,
@@ -88,5 +89,6 @@ export {
     OOSSCard,
     Detailed,
     CLoseX,
+    EyeLogo,
 };
 

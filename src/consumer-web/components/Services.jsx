@@ -37,7 +37,7 @@ export default function Services() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            let res = await fetch("http://localhost:4001/service", {
+            let res = await fetch("https://form-server.herokuapp.com/service", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

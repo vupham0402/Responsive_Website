@@ -1,7 +1,7 @@
 export default function ForVendors() {
     return (
         <>
-            <section id = "for-vendora" className = "for-vendors text-center">
+            <section id = "for-vendora" className = "for-vendors text-center" style={{marginTop: '50px'}}>
                 <div className = "container">
                     <div className = "for-vendors-right">
                         <h1 style={{color: '#fff', fontWeight: 800}}>Together, We Can Improve Market Penetration and Drive Business Growth</h1>
@@ -27,9 +27,9 @@ export default function ForVendors() {
                             of ophthalmology practices, EyeProGPO members are leaders in the ophthalmology space.  Our strong partnership with OOSS further enhances demonstration and 
                             educational opportunities to industry leaders.​</p>
                             <p className = "text text-lg"><span style={{fontWeight: 'bold'}}>Marketing Your Services</span><br />To ensure a successful partnership, 
-                            <span className="eye"> Eye</span><span className="pro">Pro</span><span className="gpo">GPO</span> collaborates with each supplier to market its products 
+                            EyeProGPO collaborates with each supplier to market its products 
                             and services and drive compliance. We conduct a formal contract launch campaign that includes electronic materials for 
-                            <span className="eye"> Eye</span><span className="pro">Pro</span><span className="gpo">GPO</span> members and may include:​​</p>
+                            EyeProGPO members and may include:​​</p>
                             <ul style={{listStyle: 'disc', fontSize: '2rem', fontWeight: 500, opacity: 0.9, paddingLeft: '20px', marginTop: '-50px'}}>
                                 <li>Marketing collateral</li>
                                 <li>Media announcement</li>

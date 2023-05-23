@@ -9,7 +9,7 @@ export default function ContactUs() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            let res = await fetch("http://localhost:4001/contact-us", {
+            let res = await fetch("https://form-server.herokuapp.com/contact-us", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -38,7 +38,7 @@ export default function ContactUs() {
     }    
 
     return (
-        <section id = "contact" className = "contact py" style={{backgroundColor: 'var(--light-gray)'}}>
+        <section id = "contact" className = "contact py" style={{backgroundColor: 'var(--light-gray)', marginTop: '50px'}}>
             <div className = "container grid">
                 <div className = "contact-left">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.32757153959!2d-83.41636252363845!3d33.88121652674057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f673ca89003d3d%3A0x74ee5a051a3b6fac!2sEyeProGPO%20LLC!5e0!3m2!1sen!2sus!4v1682616467398!5m2!1sen!2sus" 

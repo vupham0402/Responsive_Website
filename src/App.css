@@ -166,9 +166,9 @@ h1, h2, h3{
 }
 
 /* header */
-.header{
+/* .header{
     min-height: 100vh;
-}
+} */
 .navbar{
     position: fixed;
     top: 0;
@@ -1159,4 +1159,12 @@ button[class ^= navbar]:hover{
     cursor: pointer;
     margin-top: -100px;
     margin-left: 300px;
+}
+
+.carousel .control-dots{
+    position: unset !important;
+}
+
+.carousel .control-dots .dot{
+    background: black !important;
 }

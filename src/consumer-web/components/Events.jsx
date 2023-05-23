@@ -33,7 +33,7 @@ export default function Events() {
             <div className = "section-head">
                 <h2>Upcoming Events</h2>
             </div>
-            <Carousel autoPlay={true} showArrows={false} showStatus={false} showIndicators={false} showThumbs={false} infiniteLoop={true}>
+            <Carousel autoPlay={true} showArrows={false} showStatus={false} showIndicators={true} showThumbs={false} infiniteLoop={true}>
                 <div>
                     <img className="eventOne" src = {EventOne} atl="event" />
                 </div>

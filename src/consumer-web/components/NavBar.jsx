@@ -1,9 +1,16 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Close, Menu, Logo } from '../../assets/assets';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function NavBar() {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+  const [isHomePage, setIsHomePage] = useState(false);
+
+  useEffect(() => {
+    // Logic to check if the current page is the home page
+    const currentPageLocation = window.location.pathname;
+    setIsHomePage(currentPageLocation === '/'); // Update the state based on the condition
+  }, []);
 
   function handleNavbarToggle() {
     setIsNavbarOpen(!isNavbarOpen);
@@ -42,19 +49,29 @@ export default function NavBar() {
               </a>
             </li>
             <li className="nav-item">
-              <AnchorLink href="#about" className="nav-link">
-                About Us
-              </AnchorLink>
+              {isHomePage ?
+                <AnchorLink href="#about" className="nav-link">
+                  About Us
+                </AnchorLink>
+                : 
+                <a href="/" className="nav-link">
+                  About Us
+                </a>}
+            </li>
+            <li className="nav-item">
+              {isHomePage ?
+                <AnchorLink href="#package-service" className="nav-link">
+                  Our Services
+                </AnchorLink>
+                : 
+                <a href="/" className="nav-link">
+                  Our Services
+                </a>}
             </li>
             <li className="nav-item">
               <a href="/why-choose-us" className="nav-link">
                 Why Choose Us
               </a>
-            </li>
-            <li className="nav-item">
-              <AnchorLink href="#package-service" className="nav-link">
-                Our Services
-              </AnchorLink>
             </li>
             <li className="nav-item">
               <a href="/for-vendors" className="nav-link">

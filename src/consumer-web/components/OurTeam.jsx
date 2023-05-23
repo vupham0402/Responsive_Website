@@ -2,11 +2,11 @@ import { Caitlin, Clayton, Erin, Hannah, Imran, Jerome, Jill, Ken, Meghan, Neil,
 
 export default function OurTeam() {
     return (
-        <section id = "doc-panel" className = "doc-panel py">
+        <section id = "doc-panel" className = "doc-panel py" style={{marginTop: '50px'}}>
             <div className = "container">
                 <div className = "section-head" style={{textAlign: 'center'}}>
                     <h2>Our Team</h2>
-                    <p className = "text text-lg">Our leaders and support team promote <span className="eye">Eye</span><span className="pro">Pro</span><span className="gpo">GPO</span>
+                    <p className = "text text-lg">Our leaders and support team promote EyeProGPO
                     's values and commitment to improving healthcare in ophthalmology.  We strive daily for ways to encourage innovation, insight, and growth.</p>
                 </div>
 

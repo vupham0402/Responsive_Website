@@ -2,6 +2,7 @@ import { Logo } from "../../assets/assets"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faFax, faSquarePhone } from "@fortawesome/free-solid-svg-icons";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function Footer() {
     return (
@@ -30,9 +31,9 @@ export default function Footer() {
                     <div className = "footer-item">
                         <h3 className = "footer-head">Quick Links</h3>
                         <ul>
-                            <li><a href = "#why-choose-us" className = "text-white">Why Choose Us</a></li>
-                            <li><a href = "#for-vendors" className = "text-white">For Vendors</a></li>
-                            <li><a href = "#our-services" className = "text-white">Our Services</a></li>
+                            <li><a href = "/why-choose-us" className = "text-white">Why Choose Us</a></li>
+                            <li><a href = "/for-vendors" className = "text-white">For Vendors</a></li>
+                            <li><AnchorLink href="#package-service" className="nav-link">Our Services</AnchorLink></li>
                             <li><a href = "#career" className = "text-white">Career</a></li>
                         </ul>
                     </div>

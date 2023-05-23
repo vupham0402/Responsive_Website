@@ -2,7 +2,7 @@ import { Contract, Help, Improvement, Partner } from "../../assets/assets";
 
 export default function WhyChooseUs() {
     return (
-        <section className = "posts py" style={{backgroundColor: 'var(--light-gray)'}}>
+        <section className = "posts py" style={{backgroundColor: 'var(--light-gray)', marginTop: '50px'}}>
             <div className = "container">
                 <div className = "section-head">
                     <h1 style={{textAlign: 'center', fontSize: '4rem'}}>Why Choose Us</h1>
@@ -16,7 +16,7 @@ export default function WhyChooseUs() {
                             <h2>Partner Relationships with Suppliers</h2>
                             <p className = "text text-sm">We have partner-based relationships with ophthalmology healthcare suppliers and work to get our GPO members the lowest price
                             but also focus on the total value of the contract. Properly managing supplier contracts requires an extensive time investment, and when you work with 
-                            <span className="eye"> Eye</span><span className="pro">Pro</span><span className="gpo">GPO</span>, your organization no longer has to deal with such 
+                            EyeProGPO, your organization no longer has to deal with such 
                             a hassle. Our team reviews and audits price files and ensures that the terms of our group contracts are being followed.</p>
                         </div>
                     </article>
@@ -27,8 +27,7 @@ export default function WhyChooseUs() {
                         </div>
                         <div className = "content">
                             <h2>Better Pricing and Contract Terms</h2>
-                            <p className = "text text-sm">By sourcing agreements with the right healthcare suppliers, <span className="eye">Eye</span><span className="pro">Pro</span>
-                            <span className="gpo">GPO</span> can provide you with better pricing and contract terms than your ASC or physician office could get on its own. 
+                            <p className = "text text-sm">By sourcing agreements with the right healthcare suppliers, EyeProGPO can provide you with better pricing and contract terms than your ASC or physician office could get on its own. 
                             Suppliers like to work with GPOs because it reduces the costs associated with acquiring new customers, that’s why they are able to offer their best prices 
                             to GPO members.</p>
                         </div>
@@ -51,7 +50,7 @@ export default function WhyChooseUs() {
                             <img src = {Help} />
                         </div>
                         <div className = "content">
-                            <h2>Other ways <span className="eye">Eye</span><span className="pro">Pro</span><span className="gpo">GPO</span> Can Help</h2>
+                            <h2>Other ways EyeProGPO Can Help</h2>
                             <p className = "text text-sm">In addition to helping our members immediately experience significant cost savings on ophthalmic supplies they use every day, we
                              work with them to:</p>
                             <ul className="list">
